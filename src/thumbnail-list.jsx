@@ -1,6 +1,7 @@
-var Thumbnail = require("thumbnail");
+var React = require('react');
+var Thumbnail = require("./thumbnail");
 
-var ThumbnailList = React.createClass({
+module.exports = React.createClass({
   render: function() {
       //return <div> Hello world </div>
     var list = this.props.thumbnailData.map(function(thumbnailProps) {
@@ -12,9 +13,8 @@ var ThumbnailList = React.createClass({
     }
 
     return <div>
-      {d}
-  	{list}
-  	{list}
+  	  {list}
+  	  {list}
     </div>
   }
 });

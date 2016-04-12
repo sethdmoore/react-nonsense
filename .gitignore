@@ -1,2 +1,4 @@
 application.js
 node_modules
+*.sw?
+main.js
